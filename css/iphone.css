@@ -1,0 +1,548 @@
+/* iphone专用css */
+@font-face {
+    font-family: 'iconfont';
+    src: url('../fonts/iconfont.ttf') format('truetype');
+  }
+.iphone {
+    margin-top: 25px;
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+.iphonf_lf {
+    float: left;
+    width: 430px;
+}
+.iphonf_lf ul li h6 {
+    font-size: 12px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+.iphonf_lf ul li h6 a {
+    margin: 0 10px;
+}
+.iphone_img {
+    position: relative;
+    padding-top: 5px;
+    height: 400px;
+    width: 428px;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: move;
+    overflow: hidden;
+}
+.zhezhao {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    opacity: .5;
+}
+.big {
+    display: none;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    width: 500px;
+    height: 500px;
+    z-index: 999;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+.bigimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.iphone_detail {
+    position:relative;
+    margin-top: 60px;
+    height: 70px;
+    line-height: 70px;
+}
+.iphone_detail span {
+    display: inline-block;
+    margin-left: 55px;
+    text-align: center;
+    line-height: 60px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid red;
+}
+.iphone_detail::before,
+.iphone_detail::after  {
+    position: absolute;
+    font-family: 'icomoon';
+    font-size: 100px;
+    font-weight: 400;
+    color: #ccc;
+}
+.iphone_detail::before {
+    content: "\e91f";
+    top: 2px;
+    left: -30px;
+}
+.iphone_detail::after {
+    content: "\e920";
+    top: 2px;
+    right: -25px;
+}
+.iphone_bottom {
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.iconfont {
+    font-family: "iconfont";
+    font-size: 16px;
+    color: red;
+}
+.iphone_bottom a {
+    margin-left: 40px;
+}
+.iphone_bottom em {
+    margin-left: 40px;
+}
+.iphone_bottom em input {
+    vertical-align: middle;
+}
+.iphone_rt {
+    float: left;
+    margin-left: 60px;
+    width: 710px;
+    height: 600px;
+}
+.iphone_rt h3 {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+}
+.iphone_rt h4 {
+    margin: 10px 0;
+    font-size:14px;
+    color: red;
+    font-weight: 400;
+}
+.value {
+    height: 110px;
+    background-color: #fee9eb;
+} 
+.value_lf {
+    float: left;
+    height: 110px;
+    width: 70px;
+    color: #000;
+}
+.value_lf ul li {
+    margin:15px 10px;
+    text-align: center;
+    font-size: 12px;
+}
+.value_rt {
+    float: left;
+}
+
+.value_top {
+    position:relative;
+    height: 30px;
+}
+.value_top span {
+    font-size: 24px;
+    font-weight: 700;
+    color: red;
+}
+.value_top a {
+    margin-left: 5px;
+    font-size: 12px;
+    color: red;
+}
+.value_top::after {
+    position: absolute;
+    content:"累计评价612188";
+    top: 10px;
+    right: -80px;
+}
+.value_btm {
+    margin-top: 15px;
+    height: 50px;
+    font-size: 12px;
+}
+.value_btm a {
+    display: inline-block;
+    margin-right: 5px;
+    line-height: 25px;
+    text-align: center;
+    width: 40px;
+    height: 25px;
+    background-color: #c81623;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+}
+.delivery {
+    width: 547px;
+    height: 98px;
+    border-bottom: 2px solid #ccc;
+}
+.delivery_lf {
+    float: left;
+    height: 100px;
+    width: 70px;
+    color: #000;
+}
+.delivery_lf ul li {
+    margin:15px 10px;
+    text-align: center;
+    font-size: 12px;
+}
+.delivery_rt {
+    float: left;
+}
+.delivery_rt ul li {
+    margin-top: 15px;
+}
+.model {
+    width: 547px;
+    height: 235px;
+    margin-top: 5px;
+}
+.model_lf {
+    float: left;
+    width: 70px;
+    line-height: 45px;
+    text-align: center;
+    margin: 0 5px;
+    color: #000;
+}
+.model_rt {
+    float: left;
+    line-height: 45px;
+}
+.model_rt a {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+}
+.model_rt a:active {
+    border: 1px solid red;
+}
+.buy {
+    width: 235px;
+    height: 45px;
+    margin-left: 15px;
+}
+.number {
+    float: left;
+    width: 50px;
+    height: 45px;
+    border: 1px solid #ccc;
+}
+.buy .number span {
+    float: left;
+    display: block;
+    text-align: center;
+    line-height: 45px;
+    width: 33px;
+    border-right: 1px solid #ccc;
+}
+.buy .number button {
+    float: left;
+    width: 16px;
+    height: 22px;
+    background-color: #f7f7f7;
+    border: 0;
+}
+.buy .in {
+    float: left;
+    margin-left: 13px;
+    width: 140px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 45px;
+    border: 0;
+    color: #fff;
+    background-color: #c81623;
+}
+.iphone_ft {
+    margin-top: 30px;
+}
+.iphone_ft_lf {
+    float: left;
+    margin-right: 10px;
+    width: 207px;
+    height: 2390px;
+    border: 1px solid #ccc;
+}     
+.iphone_ft_lf_nav {
+    height: 34px;
+    border-bottom: 1px solid #ccc;
+}
+.iphone_ft_lf_nav a {
+    float: left;
+    width: 103px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+    background-color: #f1f1f1;
+}
+.iphone_ft_lf_nav a:hover {
+    background-color: #fff;
+    color: red;
+}
+.iphone_ft_lf_main ul li {
+    margin: 0 auto;
+    width: 185px;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px dashed #ccc;
+}
+.iphone_ft_lf_main ul li a {
+    display: inline-block;
+    padding-left: 5px;
+    width: 85px;    
+}
+.iphone_ft_lf_main_ft  h4 {
+    margin: 0 auto;
+    height: 45px;
+    width: 185px;
+    line-height: 45px;
+    font-size: 14px;
+    font-weight: 400;
+    border-bottom: 1px solid #ccc;
+
+}
+.iphone_ft_lf_main_ft ul li {
+    margin: 7px auto;
+    padding-bottom: 20px;
+    width: 185px;
+    color: #000;
+    border-bottom: 1px solid #ccc;
+} 
+.iphone_ft_lf_main_ft ul li p {
+    margin: 15px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.iphone_ft_lf_main_ft ul li button {
+    display: block;
+    margin: 3px auto;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+}
+.iphone_ft_rt {
+    float: left;
+    width: 978px;
+}
+.iphone_ft_rt .iphone_box {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+.iphone_ft_rt .head {
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+.iphone_ft_rt .head h4 {
+    width: 85px;
+    height: 40px;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    background-color: #c81623;
+}
+.nav_lf {
+    float: left;
+    width: 795px;
+    height: 260px;
+    padding-left:15px;
+    border-right: 1px solid #ccc;
+}
+.nav_lf_top {
+    width: 100%;
+    height: 30px;
+}
+.nav_lf_top  li {
+    float:left;
+    margin-top: 10px;
+}
+.nav_lf_top  li a {
+    padding-right: 45px;
+}
+.nav_lf .nav_lf_btm {
+    position: relative;
+    margin-top: 15px;
+}
+.nav_lf_btm span {
+    float: left;
+    display: block;
+    width: 130px;
+    text-align: center;
+}
+.nav_lf_btm span em {
+    display: inline-block;
+    height: 130px;
+    width: 130px;
+    line-height: 130px;
+    border: 1px solid #e33a3e;
+}
+.nav_lf_btm span h4 {
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight: 500;
+    color: #e33a3e;
+}
+.nav_lf_btm h3 {
+    float: left;
+    height: 130px;
+    width: 35px;
+    text-align: center;
+    line-height: 130px;
+}
+.nav_lf_btm ul li a h5 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    margin-top: 30px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+}
+.nav_lf .nav_lf_btm ul li {
+    float: left;
+    margin: 0 24px;
+    width: 105px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #e33a3e;
+}
+.nav_lf_btm::after {
+    position: absolute;
+    content: "\e920";
+    font-family: 'icomoon';
+    top:60px;
+    right: 0;
+    width: 20px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #ddd;
+}
+.nav_rt {
+    float: left;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+}
+.nav_rt span {
+    display: block;
+    line-height: 32px;
+    width: 140px;
+    height: 170px;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+.nav_rt span button {
+    margin-top: 45px;
+    width: 140px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    border: 0;
+    background-color: #c81623;
+}
+.nav_rt span i {
+    font-size: 24px;
+    font-weight: 600;
+    color: #e12228;
+}
+.iphone_ft_rt_nav {
+    height: 40px;
+    background-color: #f1f1f1;
+}
+.iphone_ft_rt_nav ul li {
+    float: left;
+}
+.iphone_ft_rt_nav ul li a {
+    padding: 15px;
+    line-height: 40px;
+    font-size: 12px;
+    color: #000;
+}
+/* .iphone_ft_rt_nav ul li a:hover {
+    color: #fff;
+    background-color: #c81623;
+} */
+.current {
+    color: #fff;
+    background-color: #c81623;
+}
+.baozhuang {
+    display: none;
+}
+.iphone_ft_rt_info {
+    position: relative;
+    height: 305px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-top: 25px;
+    padding-left: 50px;
+    border-bottom: 1px solid #ccc;
+}
+.iphone_ft_rt_info::after {
+    position: absolute;
+    content: "\e91e";
+    font-family: 'icomoon';
+    top: 285px;
+    right: 5px;
+}
+.iphone_ft_rt_info ul li a {
+    float: right;
+    margin-right:20px;
+    font-size: 12px;
+    color: #000;
+}
+.iphone_ft_rt_img {
+    width: 100%;
+    text-align: center;
+}
+.iphone_ft_rt_img ul li:nth-child(2n) {
+    background-color: #f0f0f0;
+}
+.youlike_box {
+    margin: 15px 0;
+    height: 340px;
+    border: 1px solid #ccc;
+}
+.youlike_box h2 {
+    height: 40px;
+    padding-left: 10px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    border-bottom: 1px solid #ccc;
+    background-color: #f1f1f1;
+}

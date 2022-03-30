@@ -1,0 +1,238 @@
+.main {
+    margin-left: 220px;
+    margin-top: 10px;
+    width: 980px;
+    height: 465px;
+}
+.main .main_left {
+    float:left;
+    width: 720px;
+    height: 455px;
+    background-image: url(../images/图层179.png);
+}
+.main .main_right {
+    float: right;
+    width: 250px;
+    height: 455px;
+    /* background-color:skyblue; */
+}
+.new_hd {
+    width: 100%;
+    overflow: hidden;
+    height: 160px;
+    border: 1px solid #f7f7f7;
+    /* background-color: pink; */
+}
+.new_hd h1 {
+    position: relative;
+    padding-left: 15px;
+    width: 100%;
+    height: 32px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    border-bottom: 1px solid #f7f7f7;
+}
+.new_hd h1 a {
+    margin-left: 110px;
+}
+.new_hd ul li {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 15px;
+    height: 24px;
+    line-height: 24px;
+}
+.new_hd h1::after {
+    position: absolute;
+    content: "\e920";
+    top: 0;
+    right: 25px;
+    font-size: 14px;
+    font-family: 'icomoon';
+}
+.new_ft {
+    overflow: hidden;
+    width: 100%;
+    height: 210px;
+    border: 1px solid #f7f7f7;
+    border-top: 0;
+}
+.new_ft ul {
+    width: 256px;
+}
+.new_ft ul li {
+    float: left;
+    width: 62px;
+    height: 70px;
+    text-align: center;
+    border-right: 1px solid #f7f7f7;
+    border-bottom: 1px solid #f7f7f7;
+    background-color: #fff;
+}
+.new_ft ul li i {
+    display: inline-block;
+    margin-top: 12px;
+    width: 25px;
+    height: 30px;
+    background:url(../images/icons.png) no-repeat -17px -15px ;
+}
+.recom {
+    height: 160px;
+}
+.new_ft_img {
+    margin-top: 5px;
+}
+.recom-left {
+    float: left;
+    width: 205px;
+    height: 130px;
+    padding-top: 30px;
+    text-align: center;
+    background-color: #5c5251;
+}
+.recom-right {
+    float: left;
+    overflow: hidden;
+    width: 995px;
+    height: 160px;
+    background-color: #ebebeb;
+}
+.recom-right ul {
+    width: 1005px;
+}
+.recom-right ul li {
+    float: left;
+    margin: 8px 0;
+    width: 250px;
+    height: 144px;
+    border-left: 1px solid #f7f7f7;
+    /* background-color: pink; */
+}
+.youlike {
+    height: 265px;
+    /* background-color:pink;   */
+}
+.youlike_hd  {
+    line-height: 30px;
+    height: 30px;
+    /* background-color: skyblue; */
+}
+.youlike_hd h3 {
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+.youlike_hd a {
+    float: right;
+    margin-right: 20px;
+}
+.youlike_ht ul {
+    width: 1202px;
+}
+.youlike_ht {
+    height: 233px;
+    border: 1px solid #f7f7f7;
+}
+.youlike_ht ul li {
+    text-align: center;
+    padding: 20px 0;
+    float:left;
+    height: 195px;
+    width: 200px;
+}
+.youlike_ht ul li a p {
+    padding: 0 35px;
+    /* margin-left: 35px; */
+    height: 60px;
+    width: 130px;
+    border-right: 1px solid #f7f7f7;
+}
+.tab {
+    width: 100%;
+    height: 30px;
+    border-bottom: 2px solid red;
+    /* background-color: pink; */
+}
+.tab h3 {
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    color: red;
+}
+.tab-right {
+    height: 30px;
+    line-height: 30px;
+    float: right;
+}
+.tab-right ul li {
+    float:left;
+    text-align: center;
+}
+.tab-right ul li a {
+    padding: 0 15px;
+    font-size: 12px;
+}
+.tab-right ul li:nth-child(2n) {
+    width: 1px;
+    height: 15px;
+    background-color: #666; 
+   margin-top: 8px;
+}
+.tab-box {
+    height: 360px;
+    width: 100%;
+    overflow: hidden;
+}
+.col_211 {
+    float: left;
+    width: 211px;
+    height: 100%;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+.col_211 ul li {
+    float: left;
+    width: 85px;
+    height: 33px;
+    margin:0  10px;
+    line-height: 33px;
+    border-bottom: 1px solid #ccc;
+}
+.col_326  {
+    float: left;
+    height: 100%;
+    width: 324px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.col_220 {
+    float: left;
+    width: 219px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.col_222 {
+    float: left;
+    width: 222px;
+}
+.col_220 {
+    float: left;
+    width: 220px;
+}
+.tab-box-ft {
+    height: 65px;
+    text-align: center;
+    margin-top: 23px ;
+    margin-bottom: 28px;
+    background-color: #f7f7f7;
+}
+.tab-box-ft  ul li {
+    float: left;
+    width: 118px;
+    height: 38px;
+    margin-top: 15px;
+    border-right: 1px solid #ccc;
+}

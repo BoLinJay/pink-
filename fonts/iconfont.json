@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2076191",
+      "name": "分享",
+      "font_class": "fenxiang",
+      "unicode": "e86e",
+      "unicode_decimal": 59502
+    },
+    {
+      "icon_id": "5699785",
+      "name": "icon_news",
+      "font_class": "icon-",
+      "unicode": "e6fa",
+      "unicode_decimal": 59130
+    },
+    {
+      "icon_id": "5699786",
+      "name": "icon_buy",
+      "font_class": "icon-1",
+      "unicode": "e6f9",
+      "unicode_decimal": 59129
+    },
+    {
+      "icon_id": "7388051",
+      "name": "爱心",
+      "font_class": "aixin",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    }
+  ]
+}
